@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CharacterEncoding",
+            "request": "launch",
+            "mainClass": "fundamentals.CharacterEncoding",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CharacterEncoding",
+            "request": "launch",
+            "mainClass": "CharacterEncoding",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        }
+    ]
+}
