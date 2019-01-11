@@ -1,4 +1,9 @@
 package fundamentals;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 /**
  * Show the usage of java separators
  * @author Andres Ceballos Sanchez - andresrxn10@hotmail.com
@@ -36,4 +41,37 @@ public class Separators {
     //Array value dereferencing
     String [] cars = {"BMW", "AUDI", "TOYOTA"};
     String favoriteCar = cars[1];
+
+    /* Angle brackets <> */
+    //Used to pass parameter to parameterized types
+    class GenericClass<T> {}
+    GenericClass<String> stringGeneric = new GenericClass<>();
+
+    /* Semicolon ; */
+    //Used to terminate statements
+    String statement = "Ending with semicolon";
+    //In the for statement, used to separate the initialization code, expression and update code
+    public void testSemicolon() {
+        for(int i = 0; i < Integer.MIN_VALUE; i++){}
+    }
+
+    /* Colon : */
+    //Used in for statement that iterates over an array or a collection
+    public void testColon() {
+        List<Integer> numbers = Collections.emptyList();
+        for(Integer number : numbers) {
+            System.out.println(number);
+        }
+    }
+
+    /* Comma , */
+    //Used to separate arguments in method declaration
+    public void testComma(String argument1, String argument2, String argument3){}
+
+    /* Period . */
+    //Used to select a field or method from a reference variable
+    public void testPeriod() {
+        String variable = new String();
+        variable.getBytes();        
+    }
 }
