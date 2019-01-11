@@ -1,7 +1,7 @@
 package fundamentals;
 
 /**
- * Shows the ranges and default values of primitives
+ * Shows the usage and features of primitive types
  * @author Andres Ceballos Sanchez - andresrxn10@hotmail.com
  * @version 1.0
  * @since 10/01/2019
@@ -40,5 +40,20 @@ public class Primitives {
         System.out.println(String.format("long ranges from %d to %d", Long.MIN_VALUE, Long.MAX_VALUE));
         System.out.println(String.format("float ranges from %f to %f", Float.MIN_VALUE, Float.MAX_VALUE));
         System.out.println(String.format("double ranges from %f to %f", Double.MIN_VALUE, Double.MAX_VALUE));
+
+        /* Overflow */
+        int i = Integer.MAX_VALUE;
+        int j = i + 1; //When an integer overflows, it rolls over to the minimum value and begins counting up from there.
+        double d = Double.MAX_VALUE;
+        double o = d + 1; //Floating point number overflow by returning Infinity        
+        System.out.println("\nOVERFLOW");
+        System.out.println("========");        
+        System.out.println(j);
+        System.out.println(o);  
+        
+        /* Autoboxing: conversion of a primitive type to its wrapper class
+           Java can perform this conversion for us automatically */
+        Character c = 'c';
+        Integer i = 1;
     }    
 }

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Primitives",
+            "request": "launch",
+            "mainClass": "fundamentals.Primitives",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CharacterEncoding",
             "request": "launch",
             "mainClass": "fundamentals.CharacterEncoding",
