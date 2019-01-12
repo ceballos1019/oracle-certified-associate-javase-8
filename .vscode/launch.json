@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Variables",
+            "request": "launch",
+            "mainClass": "fundamentals.Variables",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Primitives",
             "request": "launch",
             "mainClass": "fundamentals.Primitives",
