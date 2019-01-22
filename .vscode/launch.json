@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Conversions",
+            "request": "launch",
+            "mainClass": "fundamentals.Conversions",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Literals",
             "request": "launch",
             "mainClass": "fundamentals.Literals",
