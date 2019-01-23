@@ -61,8 +61,72 @@ public class Conversions {
         System.out.println(b);
      }
 
+     /*Boxing/Unboxing conversions: The ability to automatically convert 
+     to/from a primitive to an object and back*/
+     int myInt = 10;
+     Integer myIntegerReference = myInt;
+     int myOtherInt = myIntegerReference;
+    
+     /* String conversions: All the primitive types may be converted to String 
+     through their Wrapper Classes, which override the toString() method*/   
+     public static void showStringConversions() {
+        Byte byteRef = 1;
+        Short shortRef = 10;
+        Integer intRef = 100;
+        Long longRef = 1000L;
+        Float floatRef = 10000f;
+        Double doubleRef = 100000d;
+        Character charRef = 'a';
+        Boolean booleanRef = false;
+
+         System.out.println("byte: " + byteRef.toString());
+         System.out.println("short: " + shortRef.toString());
+         System.out.println("int: " + intRef.toString());
+         System.out.println("long: " + longRef.toString());
+         System.out.println("float: " + floatRef.toString());
+         System.out.println("double: " + doubleRef.toString());
+         System.out.println("char: " + charRef.toString());
+         System.out.println("boolean: " + booleanRef.toString());
+     }
+
+    /* Numeric promotions: To execute a binary operation, 
+    it is necessary that both operands are compatible in terms of size*/
+     
+    //If one of the operands is a double, the other is promoted to double
+    float errorWithFloat = 10d + 10f; //Error because result is a double
+    double withDouble = 10d + 10f;
+
+    //Otherwise, if one of the operands is a float, the other is promoted to float
+    long errorWithLong = 3L + 4f; //Error because result is a float
+    float withFloat =  3L + 4f;
+
+    //Otherwise, if one of the operands is a long, the other is promoted to long
+    int errorWithInt = 10 + 5L; //Error because result is a long
+    long withLong = 10 + 5L;
+
+    //Otherwise, both are considered int
+    byte op1 = 4;
+    byte op2 = 5;
+    byte errorWithByte = op1 + op2; //Error because result is an int
+    byte errorWithByte2 = (byte) op1 +  op2; //Only casting op1
+    byte myByteResult = (byte) (op1 + op2);
+
+     /**
+      * We expect YOLO to be printed but the actual output is YO155
+      When we use double quotes, the text is treated as a string and “YO” is printed
+      but when we use single quotes, the characters ‘L’ and ‘O’ are converted to int
+      */
+    public static void showPromotionWithChar() {
+        System.out.print("Y" + "O"); 
+        System.out.print('L' + 'O');      
+    }
+     
+
+
      public static void main(String[] args) {
          showLossOfInformation();
+         showStringConversions();
+         showPromotionWithChar();
      }
      
 
