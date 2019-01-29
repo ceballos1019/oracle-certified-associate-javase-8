@@ -1,5 +1,11 @@
 package fundamentals;
 
+/**
+ * Shows the different conversions in Java
+ * @author Andres Ceballos Sanchez - andresrxn10@hotmail.com
+ * @since 2019/01/28
+ * @version 1.0
+ */
 public class Conversions {
     /*Identity conversion: same type*/
     int firstValue = 20;
