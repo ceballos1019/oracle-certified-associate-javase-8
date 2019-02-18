@@ -1,0 +1,60 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Operators",
+            "request": "launch",
+            "mainClass": "fundamentals.Operators",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Conversions",
+            "request": "launch",
+            "mainClass": "fundamentals.Conversions",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Literals",
+            "request": "launch",
+            "mainClass": "fundamentals.Literals",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Constants",
+            "request": "launch",
+            "mainClass": "fundamentals.Constants",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Variables",
+            "request": "launch",
+            "mainClass": "fundamentals.Variables",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Primitives",
+            "request": "launch",
+            "mainClass": "fundamentals.Primitives",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CharacterEncoding",
+            "request": "launch",
+            "mainClass": "fundamentals.CharacterEncoding",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CharacterEncoding",
+            "request": "launch",
+            "mainClass": "CharacterEncoding",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        }
+    ]
+}
