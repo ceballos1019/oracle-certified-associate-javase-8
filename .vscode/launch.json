@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ContinueStatement",
+            "request": "launch",
+            "mainClass": "statements.ContinueStatement",
+            "projectName": "oracle-certified-associate-javase-8_9a3e955e"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Operators",
             "request": "launch",
             "mainClass": "fundamentals.Operators",
