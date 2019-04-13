@@ -18,7 +18,7 @@ public class MyClass {
     public void methodB(){};
     
     /**
-     * Entry point to the application
+     * Entry point to the application.
      */
     public static void main(String[] args) {
 

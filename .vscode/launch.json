@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - StaticBlock",
+            "request": "launch",
+            "mainClass": "objects_classes.StaticBlock",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MainMethod",
+            "request": "launch",
+            "mainClass": "objects_classes.MainMethod",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SwitchStatement",
             "request": "launch",
             "mainClass": "statements.SwitchStatement",
