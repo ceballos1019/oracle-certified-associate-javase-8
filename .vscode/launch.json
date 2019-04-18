@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - StaticImport",
+            "request": "launch",
+            "mainClass": "objects_classes.StaticImport",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PackageInfo",
             "request": "launch",
             "mainClass": "objects_classes.PackageInfo",
