@@ -29,8 +29,4 @@ public class Constructors {
         this.number = numA * numB;
         return;
     }
-
-    public void test() {
-        return;
-    }
 }

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Package",
+            "request": "launch",
+            "mainClass": "java.test.Package",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StaticBlock",
             "request": "launch",
             "mainClass": "objects_classes.StaticBlock",
