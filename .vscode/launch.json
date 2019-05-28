@@ -2,6 +2,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ReferenceOrValue",
+            "request": "launch",
+            "mainClass": "objects_classes.ReferenceOrValue",
+            "projectName": "oracle-certified-associate-javase-8_9a3e955e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MethodOverloading",
+            "request": "launch",
+            "mainClass": "objects_classes.MethodOverloading",
+            "projectName": "oracle-certified-associate-javase-8_9a3e955e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StaticKeyword",
+            "request": "launch",
+            "mainClass": "objects_classes.StaticKeyword",
+            "projectName": "oracle-certified-associate-javase-8_9a3e955e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NullKeyword",
+            "request": "launch",
+            "mainClass": "objects_classes.NullKeyword",
+            "projectName": "oracle-certified-associate-javase-8_9a3e955e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StaticImport",
+            "request": "launch",
+            "mainClass": "objects_classes.StaticImport",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PackageInfo",
+            "request": "launch",
+            "mainClass": "objects_classes.PackageInfo",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Package",
+            "request": "launch",
+            "mainClass": "java.test.Package",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StaticBlock",
+            "request": "launch",
+            "mainClass": "objects_classes.StaticBlock",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MainMethod",
+            "request": "launch",
+            "mainClass": "objects_classes.MainMethod",
+            "projectName": "oracle-certified-associate-javase-8_72bd488a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SwitchStatement",
             "request": "launch",
             "mainClass": "statements.SwitchStatement",
