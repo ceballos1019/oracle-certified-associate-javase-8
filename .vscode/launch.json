@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - StringClass",
+            "request": "launch",
+            "mainClass": "core_class.StringClass",
+            "projectName": "oracle-certified-associate-javase-8_9a3e955e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringClass",
+            "request": "launch",
+            "mainClass": "core.StringClass",
+            "projectName": "oracle-certified-associate-javase-8_9a3e955e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringClass",
+            "request": "launch",
+            "mainClass": "core_classes.StringClass",
+            "projectName": "oracle-certified-associate-javase-8_9a3e955e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ObjectClass",
+            "request": "launch",
+            "mainClass": "core_classes.ObjectClass",
+            "projectName": "oracle-certified-associate-javase-8_9a3e955e"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ReferenceOrValue",
             "request": "launch",
             "mainClass": "objects_classes.ReferenceOrValue",
